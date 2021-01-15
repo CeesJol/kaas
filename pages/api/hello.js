@@ -2,7 +2,7 @@
 
 export default (req, res) => {
   res.statusCode = 200;
-  const NUMBER_OF_INCIDENTS = 1000;
+  const NUMBER_OF_INCIDENTS = 10000;
   const INCIDENT = {
     id: "1da80986-1925-58cf-b048-7ccd04a6f6e8",
     callType: {
